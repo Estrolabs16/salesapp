@@ -31,9 +31,13 @@ jobs:
         run: pod repo update
 
       - name: Generate Podfile and install pods
+        env:
+          RUBYOPT: "-r${{ github.workspace }}/tool/firebase_sdk_override.rb"
         run: flutter build ios --release --no-codesign --config-only
 
       - name: Install CocoaPods dependencies
+        env:
+          RUBYOPT: "-r${{ github.workspace }}/tool/firebase_sdk_override.rb"
         run: cd ios && pod install --repo-update && cd ..
 
       - name: Build release iOS app (unsigned, xcodebuild)
