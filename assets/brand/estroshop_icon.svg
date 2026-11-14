@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101C17"/>
+      <stop offset="1" stop-color="#070D0B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="60%">
+      <stop offset="0" stop-color="#0F9F72" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0F9F72" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B6E56"/>
+      <stop offset="1" stop-color="#0E8A69"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#10A876"/>
+      <stop offset="1" stop-color="#12C28B"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34D99F"/>
+      <stop offset="1" stop-color="#7BF0C0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+  <rect x="307.2" y="496.64" width="110.59" height="220.16" rx="50.87" fill="url(#bar1)"/>
+  <rect x="474.11" y="414.72" width="110.59" height="302.08" rx="50.87" fill="url(#bar2)"/>
+  <rect x="641.02" y="332.8" width="110.59" height="384" rx="50.87" fill="url(#bar3)"/>
+  <polyline points="261.12,503.81 424.96,414.72 588.8,329.73 752.64,243.71" fill="none" stroke="#DFFFF2" stroke-width="20.48" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="752.64" cy="243.71" r="36.86" fill="#8DFFD2"/>
+  <circle cx="752.64" cy="243.71" r="16.38" fill="#070D0B"/>
+</svg>
